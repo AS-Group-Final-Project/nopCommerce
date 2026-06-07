@@ -170,4 +170,6 @@ This project is a fork of [nopCommerce](https://github.com/nopSolutions/nopComme
 
 **Implementation support.** AI assisted during the implementation phases of the architectural additions: the Transactional Outbox, the AllocationGate plugin, the OpenBoxes Bridge, the carrier tracking integration, and the scheduled poller tasks. This included help with .NET idioms, SQL Server transaction semantics, and RabbitMQ client configuration.
 
-**Documentation writing.** AI was used to improve the clarity and consistency of the written documentation — the architecture report, ADRs, and evidence pack. The content, decisions, and results are the group's own; AI helped express them more clearly and ensure the writing was readable and internally consistent.
+**Documentation writing.** AI was used to improve the clarity and consistency of the written documentation — the architecture report, ADRs, and evidence pack. AI helped express ideas more clearly and ensure the writing was readable and internally consistent.
+
+All architectural decisions — which patterns to apply, which trade-offs to accept, how to decompose the system, and which risks to document — were made exclusively by the group. AI was used as a tool to support understanding, implementation, and writing; it did not drive or originate any design decision.
