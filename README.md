@@ -159,3 +159,15 @@ To remove all data volumes (full reset):
 ```bash
 docker-compose down -v
 ```
+
+---
+
+## Use of AI Assistance
+
+This project is a fork of [nopCommerce](https://github.com/nopSolutions/nopCommerce), an open-source e-commerce platform. AI assistance (Claude, by Anthropic) was used throughout the assignment in three ways:
+
+**Understanding the existing codebase.** nopCommerce is a large, mature codebase. AI was used to navigate and understand the existing structure — plugin architecture, dependency injection conventions, data access patterns, and service boundaries — so the group could focus on architectural decisions rather than reverse-engineering the framework.
+
+**Implementation support.** AI assisted during the implementation phases of the architectural additions: the Transactional Outbox, the AllocationGate plugin, the OpenBoxes Bridge, the carrier tracking integration, and the scheduled poller tasks. This included help with .NET idioms, SQL Server transaction semantics, and RabbitMQ client configuration.
+
+**Documentation writing.** AI was used to improve the clarity and consistency of the written documentation — the architecture report, ADRs, and evidence pack. The content, decisions, and results are the group's own; AI helped express them more clearly and ensure the writing was readable and internally consistent.
